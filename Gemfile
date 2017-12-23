@@ -11,6 +11,7 @@ group :test do
   gem 'rspec'
   gem 'rake'
   gem 'rubocop'
+  gem 'database_cleaner'
   gem 'simplecov', require: false
   gem 'simplecov-console', require: false
 end

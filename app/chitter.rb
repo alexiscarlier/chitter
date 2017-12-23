@@ -3,10 +3,12 @@ ENV['RACK_ENV'] ||= 'development'
 require 'sinatra/base'
 require 'data_mapper'
 require_relative 'data_mapper_setup'
+require 'sinatra/flash'
 
 class Chitter < Sinatra::Base
 
   enable :sessions
+  register Sinatra::Flash
 
   get '/' do
     redirect '/peeps'
@@ -32,10 +34,15 @@ class Chitter < Sinatra::Base
   end
 
    post '/users' do
-     user = User.create(name: params[:name], handle: params[:handle], email: params[:email], password: params[:password])
-     session[:user_id] = user.id
-     redirect '/peeps'
-   end
+    user = User.create(name: params[:name], handle: params[:handle], email: params[:email], password: params[:password])
+    session[:user_id] = user.id
+    if user.save
+      redirect '/peeps'
+    else
+      flash.now[:notice] = 'account already exists'
+      erb :'users/new'
+    end
+  end
 
    helpers do
      def current_user

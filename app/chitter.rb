@@ -39,7 +39,7 @@ class Chitter < Sinatra::Base
     if user.save
       redirect '/peeps'
     else
-      flash.now[:notice] = 'account already exists'
+      flash.now[:errors] = user.errors.full_messages
       erb :'users/new'
     end
   end

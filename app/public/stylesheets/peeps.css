@@ -1,0 +1,64 @@
+
+#peep_list_wrapper {
+  padding: 10px;
+  max-width: 700px;
+  margin: auto;
+}
+
+#peep_list {
+  padding: 0;
+}
+
+.peep_box li {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 3px;
+  max-width: 600px;
+  min-height: 100px;
+  padding: 10px;
+  list-style: none;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: left;
+  overflow: hidden;
+  box-shadow: 0 0 3px #888888;
+}
+
+.peep_box {
+  margin: auto;
+  margin: 0;
+}
+
+.pic {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 10%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.peep_box p {
+  margin: 0;
+  float: left;
+}
+
+.peep_box .name {
+  font-size: 20px;
+  width: 50%;
+}
+
+.peep_box .handle {
+  font-size: 16px;
+  width: 50%;
+}
+
+.peep_box .peep {
+  font-size: 24px;
+  width: 100%;
+}
+
+.peep_box .time {
+  font-size: 12px;
+  width: 100%;
+}

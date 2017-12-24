@@ -10,7 +10,8 @@
 }
 
 .peep_box li {
-  background-color: rgba(255, 255, 255, 1);
+  /* background-color: hsl(145, 46%, 45%); */
+  background-color: transparent;
   border-radius: 3px;
   max-width: 600px;
   min-height: 100px;

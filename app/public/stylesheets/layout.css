@@ -3,7 +3,6 @@ body {
   margin: 0;
   font-family:Courier New;
   text-align: left;
-  background-color: white;
   color: black;
   margin: 80px auto;
   background-color: hsl(0, 0%, 93%);
@@ -22,6 +21,10 @@ body {
   color: white;
   text-decoration: none;
   outline: none;
+}
+
+#dot {
+  color: hsl(257, 90%, 68%);
 }
 
 #home_button:hover {
@@ -76,6 +79,7 @@ header > div {
 
 #new_peep button:hover {
   cursor: pointer;
+  background-color: white;
 }
 
 #new_peep button div {

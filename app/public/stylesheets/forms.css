@@ -35,12 +35,12 @@
   border-bottom: 3px solid #bbc9db;
   text-decoration: none;
   outline: none;
-  color: hsla(257, 96%, 56%, 0.74);
+  color: hsl(129, 46%, 45%);
   font-size: 30px;
 }
 
 #form input:focus {
-  border-color: hsla(258, 96%, 56%, 1);
+  border-color: hsl(129, 46%, 45%);
 }
 
 #form ::-webkit-input-placeholder {

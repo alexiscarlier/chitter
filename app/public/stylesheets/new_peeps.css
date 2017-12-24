@@ -17,7 +17,7 @@
   outline: none;
   border: none;
   font-size: 20px;
-  color: hsla(257, 96%, 56%, 0.74)
+  color: hsl(129, 46%, 45%)
 }
 
 #new_peep_wrapper ::-webkit-input-placeholder {
@@ -32,7 +32,7 @@
   text-align: center;
   font-size: 30px;
   padding: 0;
-  background-color: hsla(258, 96%, 56%, 1);
+  background-color: hsl(129, 46%, 45%);
   color: white;
   text-decoration: none;
   outline: none;
@@ -40,7 +40,7 @@
 }
 
 #new_peep_wrapper button:hover {
-  background-color: hsla(257, 96%, 56%, 0.74);
+  background-color: hsl(129, 46%, 45%);
   border-color: white;
   cursor: pointer;
 }

@@ -23,10 +23,6 @@ body {
   outline: none;
 }
 
-#dot {
-  color: hsl(257, 90%, 68%);
-}
-
 #home_button:hover {
   cursor: pointer;
 }
@@ -87,7 +83,7 @@ header > div {
   width: 43%;
   height: 43%;
   margin: 7%;
-  background-color: hsla(258, 96%, 56%, 1);
+  background-color: hsl(129, 46%, 45%);
 }
 
 #new_peep .left {
@@ -145,7 +141,7 @@ header li {
   height: 20px;
   width: 130px;
   outline: none;
-  color: hsl(257, 90%, 68%);
+  color: hsl(129, 46%, 100%);
 }
 
 #sessions input:focus {

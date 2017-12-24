@@ -11,7 +11,7 @@ body {
 
 header {
   margin: 0px auto;
-  background-color: hsla(258, 96%, 56%, 1);
+  background-color: hsl(129, 46%, 45%);
   height: 40px;
   padding: 20px;
   position: fixed;
